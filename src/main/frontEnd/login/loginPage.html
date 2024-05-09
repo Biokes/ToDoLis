@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>todolist/login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginpag.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body">
+<!--    <div>-->
+<!--        <div style="text-align: center; margin:  0 3%">-->
+<!--        </div>-->
+<!--        <div class="navigation-bar">-->
+<!--            <div class="word">Create Task</div>-->
+<!--            <div>|</div>-->
+<!--            <div class="word">Assign task To colleague</div>-->
+<!--            <div>|</div>-->
+<!--            <div class="word">Start working on created Task</div>-->
+<!--            <div>|</div>-->
+<!--            <div class="word">Complete task</div>-->
+<!--            <div>|</div>-->
+<!--            <div class="word">view all tasks</div>-->
+<!--            <div>|</div>-->
+<!--            <div class="word">View Notification</div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div style="display: flex">
+            <div style="object-fit: contain; justify-content: space-around;margin-top: 10px">
+                <img src="download.jpeg" alt="pics">
+            </div>
+
+        <div style="display: block;justify-content: space-evenly;padding-top: 0;">
+            <div class="top-text">
+                ToDo-List
+                <i class="fa fa-bars" style="margin-top: 10px; margin-left: 10px"></i>
+                <i class="fa fa-tasks" style="margin-top: 10px;margin-left: 10px"></i>
+            </div>
+            <div class="fields">
+                <div style="margin: 45% 0 0 0">
+                    <nav>username</nav>
+                    <label for="username">
+                        <input type="text" id="username" placeholder="username" class="input">
+                    </label>
+                </div>
+                <div>
+                    <nav>password</nav>
+                    <label>
+                        <input type="password" id="password" placeholder="password" class="input">
+                    </label>
+                </div>
+            </div>
+
+            <div style="text-align: center;margin-top: 2%">
+                <button class="button" onclick="login()">
+                    login</button>
+                <button class="button">sign-up</button>
+            </div>
+            <div class="forgot">forgotten-password</div>
+
+        </div>
+    </div>
+    <script>function login(){
+        let username = document.getElementById("username").value;
+        let password= document.getElementById("password").value;
+    }
+    </script>
+</body>
+</html>

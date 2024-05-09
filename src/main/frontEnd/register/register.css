@@ -1,0 +1,24 @@
+.style{
+    display: flex;
+}
+.Register{
+    color: #0e0641;
+}
+.register-top{
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    color: #0e0641;
+    margin : 120px 0 12px 0;
+}
+.main{
+    background-color: rgba(162, 166, 166, 0.5);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.input{
+    display: block;
+    margin: 20px 30px 0 30px;
+    width: 350px;
+    font-weight: bold;
+}
